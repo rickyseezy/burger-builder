@@ -1,5 +1,4 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-![alt text](https://images.app.goo.gl/yVimaPbNzSLNh49D9)
 
 ## Description
 
