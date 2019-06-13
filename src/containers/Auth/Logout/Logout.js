@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import * as action from '../../../store/actions';
+import { Redirect } from 'react-router-dom';
+import {connect} from "react-redux";
 
 class Logout extends Component {
 
@@ -8,7 +10,7 @@ class Logout extends Component {
     }
 
     render () {
-        return ();
+        return <Redirect to="/"/>;
     }
 }
 
@@ -17,3 +19,5 @@ const mapDispatchToProps = dispatch => {
         onLogout: () => {dispatch(action.logout())}
     };
 };
+
+export default connect(null, mapDispatchToProps)(Logout);
